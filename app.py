@@ -27,5 +27,5 @@ def handle_post():
     # Return the response as a JSON object
     return jsonify(res)
 
-if __name__ == '_main_':
+if __name__ == 'main':
     app.run(debug=True,port=3000)
